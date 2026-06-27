@@ -36,7 +36,7 @@ cd vaidya-ai
 ### 2. Add Upstream Remote
 
 ```bash
-git remote add upstream https://github.com/ORG_NAME/vaidya-ai.git
+git remote add upstream https://github.com/ios-ioe/vaidya-ai.git
 ```
 
 ### 3. Always Work from a Fresh Branch
@@ -203,13 +203,13 @@ You are an expert Ayurvedic physician...
 
 | Module | Owner | Description |
 |---|---|---|
-| AI Scribe | TBD | Audio recording, Whisper integration, note generation |
-| Prakriti Engine | TBD | Dosha assessment, constitution scoring |
-| Treatment Advisor | TBD | RAG pipeline, herb & treatment recommendations |
-| Risk Flagging | TBD | Red flag detection, referral alerts |
-| Patient Reports | TBD | PDF generation, report templates |
-| Knowledge Base | TBD | Ayurvedic text ingestion, vector DB |
-| Frontend Shell | TBD | Auth, dashboard, routing, shared components |
+| AI Scribe | [Abhishek Adhikari](https://github.com/Abhishekadkh) | Audio recording, Whisper integration, note generation |
+| Prakriti Engine | [Khagendra Neupane](https://github.com/KhagendraN) | Dosha assessment, constitution scoring |
+| Treatment Advisor | [Sangam Silwal](https://github.com/SangamSilwal) | RAG pipeline, herb & treatment recommendations |
+| Risk Flagging | [Rupak Adhikari](https://github.com/RupakAdhikari2006) | Red flag detection, referral alerts |
+| Patient Reports | [Sambhav Regmi](https://github.com/sambhav605) | PDF generation, report templates |
+| Knowledge Base | [Sangam Silwal](https://github.com/SangamSilwal) | Ayurvedic text ingestion, vector DB |
+| Frontend Shell | [Sambhav Regmi](https://github.com/sambhav605) | Auth, dashboard, routing, shared components |
 
 *Tag the module owner in your PR if your changes touch their area.*
 
