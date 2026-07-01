@@ -1,0 +1,7 @@
+## These requirements are for Prakriti Engine
+## Add here any additional dependencies by reviewing it to avoid duplicates.
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pinecone>=3.0.0
+httpx>=0.27.0
+pydantic-settings>=2.0.0
