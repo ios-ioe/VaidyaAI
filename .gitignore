@@ -1,1 +1,55 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Node.js / Frontend
+node_modules/
+.next/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing / Coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage*
+coverage/
+htmlcov/
+
+# Docs artifact
 VaidyaAI-Documentation.docx

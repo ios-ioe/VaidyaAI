@@ -42,7 +42,8 @@ CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "7860"]
 In your Space → **Settings → Variables and Secrets**, add:
 
 ```
-ANTHROPIC_API_KEY
+MISTRAL_API_KEY
+MISTRAL_MODEL
 OPENAI_API_KEY
 PINECONE_API_KEY
 PINECONE_INDEX_NAME
@@ -140,7 +141,7 @@ Or run the SQL in `apps/api/db/migrations/` manually in the Supabase SQL editor.
 
 1. Go to [pinecone.io](https://pinecone.io) → Create Index
 2. Settings:
-   - **Dimensions:** 1536 (for OpenAI embeddings) or 1024 (for Cohere)
+   - **Dimensions:** 1024 (for Mistral Embed)
    - **Metric:** cosine
    - **Name:** `vaidya-knowledge`
 
